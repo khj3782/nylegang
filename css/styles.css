@@ -1,0 +1,61 @@
+body{
+  background-color:#FAFAFA;
+  font-family: 'Gowun Batang', serif;
+  font-size:18px;
+  margin:0;
+}
+a{
+  color:black;
+}
+.navbar-brand{
+  font-family: 'Do Hyeon', sans-serif;
+  font-size:36px;
+  margin-left:10px;
+  padding:5px;
+}
+.nav-item{
+  font-size:24px;
+  margin-left:10px;
+  padding:5px;
+}
+
+/*work list*/
+.work-list{
+  margin-top:80px;
+  text-align:center;
+}
+.work{
+  width:100%;
+}
+.row{
+  margin:0;
+}
+.col-sm-3{
+  padding:0;
+}
+
+/*bottom*/
+.bottom-container{
+  padding:20px;
+  text-align:center;
+}
+.copyright{
+  color:#848484;
+  font-size:12px;
+}
+
+/*about*/
+.content{
+  line-height:1.8rem;
+  padding:30px;
+}
+.content-img{
+  margin:30px;
+  width:400px;
+}
+@media(max-width:500px){
+  .content-img{
+    margin:12px 0 30px 0;
+    width:100%;
+  }
+}
